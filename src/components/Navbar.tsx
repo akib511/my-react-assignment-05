@@ -1,36 +1,47 @@
-
-import logoText from "../assets/logo-text.png"
+import logoText from "../assets/logo-text.png";
 const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 border-b bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
-
         {/* Logo */}
         <a href="#" className="text-2xl font-bold">
-         <img src={logoText} alt="" />
-         
+          <img src={logoText} alt="" />
         </a>
 
         {/* Navigation Links */}
         <div className="hidden items-center gap-7 md:flex">
-         
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-pink-500">
+          <a
+            href="#"
+            className="text-sm font-medium text-gray-700 hover:text-pink-500"
+          >
             Home
           </a>
 
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-pink-500">
+          <a
+            href="#"
+            className="text-sm font-medium text-gray-700 hover:text-pink-500"
+          >
             Technologies
           </a>
 
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-pink-500">
+          <a
+            href="#"
+            className="text-sm font-medium text-gray-700 hover:text-pink-500"
+          >
             Projects
           </a>
 
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-pink-500">
+          <a
+            href="#"
+            className="text-sm font-medium text-gray-700 hover:text-pink-500"
+          >
             About
           </a>
 
-          <a href="#" className="text-sm font-medium text-gray-700 hover:text-pink-500">
+          <a
+            href="#"
+            className="text-sm font-medium text-gray-700 hover:text-pink-500"
+          >
             Contact
           </a>
         </div>
@@ -45,7 +56,6 @@ const Navbar = () => {
             Sign Up
           </button>
         </div>
-
       </div>
     </nav>
   );
