@@ -37,7 +37,7 @@
     "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
     "rating": 4.9,
     "difficulty": "Intermediate",
-    "badge": "Popular"
+    "badge": "SSR / Edge"
   },
   {
     "id": "nodejs",
