@@ -3,6 +3,10 @@ const Navbar = () => {
   return (
     <nav className="sticky top-0 z-50 border-b bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
+        <button className="cursor-pointer text-2xl  md:hidden text-black">
+          <i className="fa-solid fa-bars"></i>
+        </button>
+
         {/* Logo */}
         <a href="#" className="text-2xl font-bold">
           <img src={logoText} alt="" />
