@@ -7,6 +7,7 @@ import type { Technology } from "./types/technology";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechnologySection from "./components/TechnologySection";
+import Footer from "./components/Footer";
 
 function App() {
   const [technologies, setTechnologies] = useState<Technology[]>([]);
@@ -83,7 +84,7 @@ function App() {
         onRemoveFromStack={handleRemoveFromStack}
         onRemoveAll={handleRemoveAll}
       />
-      
+      <Footer/>
       <ToastContainer position="top-right" />
     </>
   );
