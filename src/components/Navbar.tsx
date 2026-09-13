@@ -56,7 +56,10 @@ const Navbar = () => {
             Sign In
           </button>
 
-          <button className="rounded-full bg-[#D91B7E] px-5 py-2 text-sm font-semibold text-white border-0 cursor-pointer">
+          <button
+            className="rounded-full px-5 py-2 text-sm text-white border-0 cursor-pointer"
+            style={{ background: "var(--gradient-brand)" }}
+          >
             Sign Up
           </button>
         </div>

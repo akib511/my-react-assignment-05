@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="text-center lg:text-left">
-            <img src={Logo} alt=""  className="mx-auto lg:mx-0"/>
+            <img src={Logo} alt="" className="mx-auto lg:mx-0" />
             <p className=" mx-auto mt-4 max-w-xs text-sm leading-6 text-gray-700 lg:mx-0">
               Curated tools, technologies, and resources for developers building
               modern software.
@@ -41,9 +41,7 @@ const Footer = () => {
 
             <ul className="mt-4 space-y-3 text-sm">
               <li>
-                <a href="#" className="hover:text-pink-400">
-                 
-                </a>
+                <a href="#" className="hover:text-pink-400"></a>
               </li>
 
               <li>

@@ -20,7 +20,10 @@ const Hero = () => {
           {/* button */}
 
           <div className="mt-8 flex gap-4">
-            <button className="rounded-xl bg-linear-to-r from-orange-500 to-pink-500 px-6 py-3 font-semibold text-white shadow-md transition hover:scale-105 cursor-pointer">
+            <button
+              className="rounded-xl px-6 py-3 font-semibold text-white shadow-md transition hover:scale-105 cursor-pointer"
+              style={{ background: "var(--gradient-brand)" }}
+            >
               Explore Technologies
             </button>
             <button className="rounded-xl border border-gray-300 px-6 py-3 font-semibold text-gray-700 transition hover:border-pink-500 hover:text-pink-500 hover:scale-105 cursor-pointer ">

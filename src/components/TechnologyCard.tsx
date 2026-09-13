@@ -93,6 +93,9 @@ const TechnologyCard = ({
       <button
         disabled={isSelected}
         onClick={() => onAddToStack(technology)}
+        style={
+          !isSelected ? { background: "var(--gradient-brand)" } : undefined
+        }
         className={`mt-5 w-full rounded-xl py-3 text-sm font-semibold transition ${
           isSelected
             ? "cursor-not-allowed bg-gray-200 text-gray-500"
