@@ -6,7 +6,7 @@ The project focuses on creating a simple and interactive user experience for exp
 
 ## Live Demo
 
-<!-- Add your live Netlify link here -->
+https://luxury-croquembouche-b1c70b.netlify.app/
 
 ## Project Overview
 
