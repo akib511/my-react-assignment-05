@@ -16,7 +16,7 @@ It provides a clean interface with interactive technology cards, stack selection
 
 ## Screenshot
 
-> Add a project screenshot here.
+![DevStack Builder Preview](./devstack-preview.png)
 
 ## Technologies Used
 
